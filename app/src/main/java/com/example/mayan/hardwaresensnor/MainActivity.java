@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             series.appendData(new DataPoint(currentX, accelerationY), true, 10);
             currentX = currentX + 1;
         }
-    }
+    }   
 
     private class AccelerationChart implements Runnable {
         private boolean drawChart = true;
